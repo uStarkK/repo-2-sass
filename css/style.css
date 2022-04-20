@@ -1,0 +1,753 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?rs9uwr');
+    src:  url('../fonts/icomoon.eot?rs9uwr#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?rs9uwr') format('truetype'),
+    url('../fonts/icomoon.woff?rs9uwr') format('woff'),
+    url('../fonts/icomoon.svg?rs9uwr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+.icon-telegram:before {
+    content: "\ea95";
+}
+.icon-twitter:before {
+    content: "\ea96";
+}
+.icon-youtube:before {
+    content: "\ea9d";
+}
+.icon-twitch:before {
+    content: "\ea9f";
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    height: 100%;
+}
+body
+{
+    background-image: url("../images/fondo_index.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+    min-height: 120vh;
+}
+header
+{
+margin-top: 1%;
+}
+h1
+{
+    background-image: url(../images/fondo_header.jpg);
+    background-position: center;
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+.container
+{
+    margin: 10px;
+}
+.navigation > ul {
+    list-style: none;
+}
+.login
+{
+    text-align: right;
+    margin: 10px;
+}
+.menu > li > a{
+    display:block;
+}
+.menu-item
+{
+    position: fixed;
+    background-color: black;
+    border-radius: 30px;
+    padding:15px 20px 15px 20px;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #ff2c2c;
+}
+
+.menu-item > ul {
+    background-color: black;
+    display: none;
+    position: absolute;
+    list-style: none;
+    transition: 0.25s;
+    border-radius: 25px;
+}
+.submenu_item
+{
+    margin-top: 15px;
+}
+.menu-item a 
+{
+    color: red;
+}
+.menu-item a:hover
+{
+    color: aqua;
+}
+.menu-item:hover > ul{
+    margin-top: 10px;
+    display: block;
+    transition: 0.25s;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.legend
+{
+    font-family: 'Hurricane', cursive;
+    color: red;
+    text-align: center; 
+    font-size: 50px;
+    position: flex;
+    margin-top: 50px;
+    animation: fadeInAnimation ease 1.5s 
+}
+
+section strong
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+
+}
+
+ul
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+}
+
+#posteos
+{
+    font-size: larger;
+    display: flex;
+    justify-content: right;
+}
+#posteos strong
+{
+    justify-content: flex-end;
+    position: absolute;
+}
+#posteos ul
+{
+    list-style: none;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: right;
+}
+#posteos aside
+{
+    font-size:medium;
+    color: blueviolet;    
+}
+#posteos aside a 
+{
+    color: blueviolet;
+}
+#posteos aside a:hover
+{
+    color: bisque;
+}
+#posteos a
+{
+    color: red;
+    text-decoration: underline;
+    
+}
+#posteos a:hover
+{
+    color: aqua;
+    text-decoration: none;
+}
+#posteos ul
+{
+    background-color: black;
+    border-radius: 20px;
+}
+
+.videos_inicio
+{
+    
+    margin-top: 3%;
+    margin-left: 1.5%;
+}
+.videos_inicio h2 a
+{
+    color:red;
+}
+.videos_inicio h2 a:hover
+{
+    color: aqua;
+}
+.grid_videos
+{
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(2, 25%);
+    grid-template-areas: "videos1 videos2 videos3"
+    "videos4 videos5 videos6";
+    gap: 25% 1%;
+}
+
+.videos1
+{
+    grid-area: videos1;
+}
+.videos2
+{
+    grid-area: videos2;
+}
+.videos3
+{
+    grid-area: videos3;
+}
+.videos4
+{
+    grid-area: videos4;
+}
+.videos5
+{
+    grid-area: videos5;
+}
+.videos6
+{
+    grid-area: videos6;
+}
+.container_footer
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer
+{
+    background-color: black;
+    color: red;
+    font-family: sans-serif;
+    padding: 1%;
+    width: 100%;
+    margin-top: auto;
+    
+}
+footer nav
+{
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+}
+footer a
+{
+    color: aqua;
+    margin: 0px 5px;
+}
+footer a:hover
+{
+    color: blue;
+}
+.social_bar
+{
+    position: fixed;
+    right: 0;
+    bottom: 18%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon
+{
+    color:white;
+    text-decoration: none;
+    padding: .8rem;
+    display: flex;
+    transition: all .5s;
+}
+.icon-twitter 
+{
+    background-color: aqua;
+}
+.icon-instagram
+{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+.icon-youtube
+{
+    background-color: red;
+}
+.icon-twitch
+{
+    background-color: purple;
+}
+.icon-telegram
+{
+    background-color: darkturquoise;
+}
+.icon:first-child
+{
+    border-radius: 1rem 0 0 0;
+}
+.icon:last-child
+{
+    border-radius: 0 0 0 1rem;  
+}
+
+/*cuenta.html */
+
+.container_cuenta
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+fieldset
+{
+    border: none;
+}
+.cuenta 
+{
+    color: turquoise;
+    text-align: center;
+    background-image: url(../images/fondo_cuenta2.jpg);
+    background-position: center;
+}
+.cuenta p, label
+{
+    background-color: black;
+    color: turquoise;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 1.5%
+}
+#GET-name, #GET-password
+{
+    background-color: black;
+    color: aqua;
+    margin: 10px 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.crear_cuenta 
+{
+    background-image: url(../images/fondo_cuenta.jpg);
+    background-position: center;
+    text-align: center;
+}
+
+.crear_cuenta p
+{
+    background-color: black;
+    color: turquoise;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 1.8%
+}
+
+
+#create-user, #create-password, #GET-email  
+{
+    background-color: black;
+    color: aqua;
+    margin: 10px 15px;
+    padding: 20px;
+}
+::-ms-reveal
+{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 3px black;
+    background-color: white;
+}
+
+.licencia p
+{
+    background-color: black;
+    color: red;
+}
+.licencia a:hover
+{
+    color: aqua;
+}
+
+#create-acc
+{
+    border-radius: 25px;
+    text-shadow: 3px 2px 1px #9daef5;
+    box-shadow: 6px 5px 24px #666666;
+    font-family: Arial;
+    color: black;
+    font-size: 25px;
+    padding: 15px;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+}
+
+#create-acc:active{
+    background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
+}
+
+
+
+/* Soporte Tecnico */
+.contacto
+{
+    text-align: center;
+    background-image: url(../images/heimer.jpg);
+    background-position: center;
+    color: turquoise;
+    border-radius: 25px;
+    padding: 1.5%;
+    padding-bottom: 5%;
+}
+.container_contacto
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+}
+.wrapper_contacto
+{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* EULA */
+.container_eula
+{
+    display: flex;
+    justify-content: center;
+}
+#eula
+{
+    text-align: center;
+}
+.boton
+{
+    text-align: center;
+}
+#global {
+	height: 50vh;
+	width: 50%;
+	border: 1px solid #ddd;
+	background: #f1f1f1;
+	overflow-y: scroll;
+    display: flex;
+    
+}
+#mensajes {
+	height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.texto {
+	padding:4px;
+	background:#fff;
+}
+
+/* JUEGOS */
+.juegos_nav
+{
+    text-align: center;
+}
+.buscar_juegos
+{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.buscar_juegos ul
+{
+    list-style: none;
+    background-color: black;
+    color: #2079b0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.buscar_juegos a
+{
+    
+    color: #49FF00;
+}
+.juegos_container
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: repeat(3, 33%);
+    grid-template-areas: "jueguito1 jueguito2 jueguito3"
+    "jueguito4 jueguito5 jueguito6"
+    "jueguito7 jueguito8 jueguito9";
+    margin-top: 5%;
+    margin-left: 1%;
+}
+.jueguito1
+{
+    grid-area:jueguito1;
+    
+}
+
+.jueguito2
+{
+    
+    grid-area: jueguito2;
+    
+}
+.jueguito3
+{
+    
+    grid-area:jueguito3;
+    
+}
+.jueguito4
+{
+    
+    grid-area: jueguito4;
+    
+}
+.jueguito5
+{
+    
+    grid-area: jueguito5;
+    
+}
+.jueguito6
+{
+    
+    grid-area: jueguito6;
+    
+}
+.jueguito7
+{
+    
+    grid-area: jueguito7;
+    
+}
+.jueguito8
+{
+    
+    grid-area: jueguito8;
+    
+}
+.jueguito9
+{
+    
+    grid-area: jueguito9;
+    
+}
+.juegos_container img
+{
+    height: 90%;
+    width: 90%;
+    border-radius: 25px;
+}
+
+
+
+
+.juegos_container_wrapper
+{
+    height:100%;
+}
+
+
+
+
+@media screen and (max-width: 550px)
+{
+    .grid_videos
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 95%);
+        grid-template-rows: repeat(2, 25%);
+        grid-template-areas: "videos1"
+        "videos2";
+        gap: 25% 1%;
+    }
+    .videos1
+    {
+        grid-area: videos1;
+    }
+    .videos2
+    {
+        grid-area: videos2;
+    }
+    .videos3, .videos4, .videos5, .videos6
+    {
+        display: none;
+    }
+    .social_bar
+    {
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 1000px)
+{
+    .juegos_container
+    {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,49%);
+        grid-template-rows: repeat(4, 24%);
+        grid-template-areas: "jueguito1 jueguito2"
+        "jueguito3 jueguito4"
+        "jueguito5 jueguito6"
+        "jueguito7 jueguito8";
+        margin-top: 5%;
+        margin-left: 1%;
+    }
+    .jueguito1
+    {
+        grid-area:jueguito1;
+        
+    }
+    .jueguito2
+    {
+        
+        grid-area: jueguito2;
+        
+    }
+    .jueguito3
+    {
+        
+        grid-area:jueguito3;
+        
+    }
+    .jueguito4
+    {
+        
+        grid-area: jueguito4;
+        
+    }
+    .jueguito5
+    {
+        
+        grid-area: jueguito5;
+        
+    }
+    .jueguito6
+    {
+        
+        grid-area: jueguito6;
+        
+    }
+    .jueguito7
+    {
+        
+        grid-area: jueguito7;
+        
+    }
+    .jueguito8
+    {
+        
+        grid-area: jueguito8;
+        
+    }
+    .jueguito9
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 610px)
+{
+    .juegos_container
+    {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,98%);
+        grid-template-rows: repeat(3, 32%);
+        grid-template-areas: "jueguito1"
+        "jueguito2"
+        "jueguito3";
+        margin-top: 5%;
+        margin-left: 1%;
+        text-align: center;
+    }
+    .jueguito4, .jueguito5, .jueguito6, .jueguito7, .jueguito8, .jueguito9
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 340px)
+{
+    .juegos_container
+    {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,98%);
+        grid-template-rows: repeat(3, 33%);
+        grid-template-areas: "jueguito1"
+        "jueguito2"
+        "jueguito3";
+        margin-top: 5%;
+        margin-left: 1%;
+        text-align: center;
+        gap: 16%;
+    }
+    .jueguito4, .jueguito5, .jueguito6, .jueguito7, .jueguito8, .jueguito9
+    {
+        display: none;
+    }
+}
+
+@keyframes fadeInAnimation 
+{
+    0% {
+    opacity: 0;
+    }
+    100%{
+    opacity: 1;
+    }
+}
