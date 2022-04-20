@@ -250,10 +250,16 @@ ul
 .container_footer
 {
     display:flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
-
+.audio
+{
+    align-self: flex-start;
+}
+.copyright
+{
+    align-self: center;
+}
 footer
 {
     background-color: black;
