@@ -536,6 +536,10 @@ fieldset
     margin-top: 5%;
     margin-left: 1%;
 }
+.juegos_container div:hover
+{
+    transform: scale(1.05);
+}
 .jueguito1
 {
     grid-area:jueguito1;
@@ -605,7 +609,14 @@ fieldset
     height:100%;
 }
 
+/* COMUNIDAD */
 
+.container_posteos
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 
 @media screen and (max-width: 550px)
