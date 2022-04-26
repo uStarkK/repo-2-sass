@@ -104,7 +104,6 @@ section strong
     background-color: gray;
 }
 
-bt
 #posteos
 {
     font-size: larger;
@@ -115,12 +114,13 @@ bt
 {
     justify-content: flex-end;
     position: absolute;
+    margin-right: 1%;
 }
 #posteos ul
 {
     list-style: none;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 5%;
     text-align: right;
 }
 #posteos aside
