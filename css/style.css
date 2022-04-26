@@ -66,7 +66,7 @@ header
 {
 margin-top: 1%;
 }
-h1
+.fondo_header   
 {
     background-image: url(../images/fondo_header.jpg);
     background-position: center;
@@ -74,59 +74,10 @@ h1
     text-align: center;
     width: 100%;
 }
-.container
+.titulo
 {
-    margin: 10px;
+    text-align: center;
 }
-.navigation > ul {
-    list-style: none;
-}
-.login
-{
-    text-align: right;
-    margin: 10px;
-}
-.menu > li > a{
-    display:block;
-}
-.menu-item
-{
-    position: fixed;
-    background-color: black;
-    border-radius: 30px;
-    padding:15px 20px 15px 20px;
-    font-size: 25px;
-    text-shadow: 1px 1px 1px #ff2c2c;
-}
-
-.menu-item > ul {
-    background-color: black;
-    display: none;
-    position: absolute;
-    list-style: none;
-    transition: 0.25s;
-    border-radius: 25px;
-}
-.submenu_item
-{
-    margin-top: 15px;
-}
-.menu-item a 
-{
-    color: red;
-}
-.menu-item a:hover
-{
-    color: aqua;
-}
-.menu-item:hover > ul{
-    margin-top: 10px;
-    display: block;
-    transition: 0.25s;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .legend
 {
     font-family: 'Hurricane', cursive;
@@ -144,13 +95,16 @@ section strong
     color: azure;
 
 }
-
-ul
+.login
 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black
+    margin-right: 2.5%;
+}
+.bg-menu
+{
+    background-color: gray;
 }
 
+bt
 #posteos
 {
     font-size: larger;
