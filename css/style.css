@@ -423,7 +423,6 @@ fieldset
 /* EULA */
 .container_eula
 {
-    margin-top: 5%;
     display: flex;
     justify-content: center;
 }
@@ -436,6 +435,7 @@ fieldset
     text-align: center;
 }
 #global {
+    margin-top: 3%;
 	height: 50vh;
 	width: 50%;
 	border: 1px solid #ddd;
