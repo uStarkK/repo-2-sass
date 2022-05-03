@@ -1,0 +1,121 @@
+.legend
+{
+    font-family: 'Hurricane', cursive;
+    color: red;
+    text-align: center; 
+    font-size: 50px;
+    position: flex;
+    margin-top: 50px;
+    animation: fadeInAnimation ease 1.5s 
+}
+
+section 
+{
+    strong
+    {
+        font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    }
+}
+.login
+{
+    margin-right: 2.5%;
+}
+.bg-menu
+{
+    background-color: gray;
+}
+
+#posteos
+{
+    font-size: larger;
+    display: flex;
+    justify-content: right;
+    strong
+    {
+    justify-content: flex-end;
+    position: absolute;
+    margin-right: 1%;
+    }
+    ul
+    {
+        list-style: none;
+    padding: 20px;
+    margin-top: 5%;
+    text-align: right;
+    background-color: black;
+    border-radius: 20px;
+    }
+    aside
+    {
+        font-size:medium;
+    color: blueviolet; 
+        a
+        {
+            color:blueviolet;
+        }
+        a:hover
+        {
+            color: bisque;
+        }
+    }
+    a
+    {
+        color: red;
+        text-decoration: underline;
+    }
+    a:hover
+    {
+        color: aqua;
+        text-decoration: none;
+    }
+}
+
+.videos_inicio
+{
+    
+    margin-top: 3%;
+    margin-left: 1.5%;
+}
+.videos_inicio h2 a
+{
+    color:red;
+}
+.videos_inicio h2 a:hover
+{
+    color: aqua;
+}
+.grid_videos
+{
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(2, 25%);
+    grid-template-areas: "videos1 videos2 videos3"
+    "videos4 videos5 videos6";
+    gap: 25% 1%;
+}
+
+.videos1
+{
+    grid-area: videos1;
+}
+.videos2
+{
+    grid-area: videos2;
+}
+.videos3
+{
+    grid-area: videos3;
+}
+.videos4
+{
+    grid-area: videos4;
+}
+.videos5
+{
+    grid-area: videos5;
+}
+.videos6
+{
+    grid-area: videos6;
+}

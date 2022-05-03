@@ -1,0 +1,338 @@
+@import "partials/comunidad", "partials/cuenta", "partials/eula", "partials/index", "partials/juegos", "partials/soporte";
+
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?rs9uwr');
+    src: url('../fonts/icomoon.eot?rs9uwr#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?rs9uwr') format('truetype'),
+        url('../fonts/icomoon.woff?rs9uwr') format('woff'),
+        url('../fonts/icomoon.svg?rs9uwr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-telegram:before {
+    content: "\ea95";
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+.icon-youtube:before {
+    content: "\ea9d";
+}
+
+.icon-twitch:before {
+    content: "\ea9f";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("../images/fondo_index.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 120vh;
+}
+
+header {
+    margin-top: 1%;
+}
+
+.fondo_header {
+    background-image: url(../images/fondo_header.jpg);
+    background-position: center;
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.container_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.audio {
+    align-self: flex-start;
+}
+
+.copyright {
+    align-self: center;
+}
+
+footer {
+    background-color: black;
+    color: red;
+    font-family: sans-serif;
+    padding: 1%;
+    width: 100%;
+    margin-top: auto;
+
+    nav {
+        text-align: center;
+    }
+
+    a {
+        color: aqua;
+        margin: 0px 5px;
+    }
+
+    a:hover {
+        color: skyblue;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.social_bar {
+    position: fixed;
+    right: 0;
+    bottom: 18%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .8rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-twitter {
+    background-color: aqua;
+}
+
+.icon-instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.icon-youtube {
+    background-color: red;
+}
+
+.icon-twitch {
+    background-color: purple;
+}
+
+.icon-telegram {
+    background-color: darkturquoise;
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .juegos_container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        grid-template-rows: repeat(4, 24%);
+        grid-template-areas: "jueguito1 jueguito2"
+            "jueguito3 jueguito4"
+            "jueguito5 jueguito6"
+            "jueguito7 jueguito8";
+        margin-top: 5%;
+        margin-left: 1%;
+    }
+
+    .jueguito1 {
+        grid-area: jueguito1;
+
+    }
+
+    .jueguito2 {
+
+        grid-area: jueguito2;
+
+    }
+
+    .jueguito3 {
+
+        grid-area: jueguito3;
+
+    }
+
+    .jueguito4 {
+
+        grid-area: jueguito4;
+
+    }
+
+    .jueguito5 {
+
+        grid-area: jueguito5;
+
+    }
+
+    .jueguito6 {
+
+        grid-area: jueguito6;
+
+    }
+
+    .jueguito7 {
+
+        grid-area: jueguito7;
+
+    }
+
+    .jueguito8 {
+
+        grid-area: jueguito8;
+
+    }
+
+    .jueguito9 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .juegos_container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 98%);
+        grid-template-rows: repeat(3, 32%);
+        grid-template-areas: "jueguito1"
+            "jueguito2"
+            "jueguito3";
+        margin-top: 5%;
+        margin-left: 1%;
+        text-align: center;
+    }
+
+    .jueguito4,
+    .jueguito5,
+    .jueguito6,
+    .jueguito7,
+    .jueguito8,
+    .jueguito9 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .grid_videos {
+        display: grid;
+        grid-template-columns: repeat(1, 95%);
+        grid-template-rows: repeat(2, 25%);
+        grid-template-areas: "videos1"
+            "videos2";
+        gap: 25% 1%;
+    }
+
+    .videos1 {
+        grid-area: videos1;
+    }
+
+    .videos2 {
+        grid-area: videos2;
+    }
+
+    .videos3,
+    .videos4,
+    .videos5,
+    .videos6 {
+        display: none;
+    }
+
+    .social_bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .juegos_container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 98%);
+        grid-template-rows: repeat(3, 33%);
+        grid-template-areas: "jueguito1"
+            "jueguito2"
+            "jueguito3";
+        margin-top: 5%;
+        margin-left: 1%;
+        text-align: center;
+        gap: 16%;
+    }
+
+    .jueguito4,
+    .jueguito5,
+    .jueguito6,
+    .jueguito7,
+    .jueguito8,
+    .jueguito9 {
+        display: none;
+    }
+
+    /* COMUNIDAD */
+    .tercer_item,
+    .segundo_item {
+        display: none;
+    }
+
+    .primer_item {
+        width: 100%;
+    }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

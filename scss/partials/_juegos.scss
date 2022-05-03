@@ -1,0 +1,108 @@
+.juegos_nav 
+{
+    text-align: center;
+}
+
+.buscar_juegos 
+{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+
+    ul 
+    {
+        list-style: none;
+        background-color: black;
+        color: #2079b0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    a 
+    {
+        color: #49FF00;
+    }
+}
+
+.juegos_container 
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+    grid-template-areas: "jueguito1 jueguito2 jueguito3"
+        "jueguito4 jueguito5 jueguito6"
+        "jueguito7 jueguito8 jueguito9";
+    margin-top: 5%;
+    margin-left: 1%;
+
+    div:hover 
+    {
+        transform: scale(1.05);
+    }
+
+    img 
+    {
+        height: 90%;
+        width: 90%;
+        border-radius: 25px;
+    }
+}
+
+.jueguito1 {
+    grid-area: jueguito1;
+
+}
+
+.jueguito2 {
+
+    grid-area: jueguito2;
+
+}
+
+.jueguito3 {
+
+    grid-area: jueguito3;
+
+}
+
+.jueguito4 {
+
+    grid-area: jueguito4;
+
+}
+
+.jueguito5 {
+
+    grid-area: jueguito5;
+
+}
+
+.jueguito6 {
+
+    grid-area: jueguito6;
+
+}
+
+.jueguito7 {
+
+    grid-area: jueguito7;
+
+}
+
+.jueguito8 {
+
+    grid-area: jueguito8;
+
+}
+
+.jueguito9 {
+
+    grid-area: jueguito9;
+
+}
+
+.juegos_container_wrapper {
+    height: 100%;
+}

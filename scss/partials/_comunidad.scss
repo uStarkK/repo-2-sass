@@ -1,0 +1,91 @@
+.container_posteos
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.posts
+{
+    section 
+    {
+    background-color: black;
+    margin-top: 0.5%;
+    color: red;
+    border-radius: 10px;
+    padding: 0.5%;
+        article
+        {
+            margin-left: 1%;
+        }
+        p
+        {
+            color: white;
+            margin-left: 3%;
+        }
+        h5
+        {
+            text-align: right;
+            color: blueviolet;
+            margin-right: 0.5%;
+        }
+        a
+        {
+            color: blueviolet;
+        }
+        a:hover
+        {
+            color: bisque;
+        }
+    }
+}
+.carousel-item > img
+{
+    vertical-align: 0%;
+}
+.publicar_boton
+{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.publicar
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.carrusel_videos
+{
+    margin-top: 5%;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+.negro
+{
+    
+    background-color: black;
+}
+.izquierda
+{
+    justify-content: flex-start;
+}
+.derecha
+{
+    justify-content: flex-end;
+}
+.primer_item ,.segundo_item ,.tercer_item
+{
+    width: 32%;
+}
+
+.tercer_item
+{
+    display: none;
+}
+.segundo_item ,.primer_item
+{
+    width: 49%;
+}
