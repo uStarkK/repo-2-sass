@@ -16,26 +16,12 @@ fieldset
     background-position: center;
     p
     {
-        background-color: black;
-        color: turquoise;
-        display: block;
-        margin-left: 30%;
-        margin-right: 30%;
-        border-radius: 25px;
-        margin-top: 10px;
-        padding: 1.5%
+        @include cuenta-propiedades
     }
 }
 label
 {
-    background-color: black;
-    color: turquoise;
-    display: block;
-    margin-left: 30%;
-    margin-right: 30%;
-    border-radius: 25px;
-    margin-top: 10px;
-    padding: 1.5%
+    @include cuenta-propiedades
 }
 #GET-name, #GET-password
 {
@@ -53,14 +39,7 @@ label
     text-align: center;
     p
     {
-        background-color: black;
-        color: turquoise;
-        display: block;
-        margin-left: 30%;
-        margin-right: 30%;
-        border-radius: 25px;
-        margin-top: 10px;
-        padding: 1.8%
+        @include cuenta-propiedades
     }
 }
 

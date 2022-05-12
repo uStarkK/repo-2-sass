@@ -1,0 +1,65 @@
+@mixin cuenta-propiedades 
+{
+    background-color: black;
+        color: turquoise;
+        display: block;
+        margin-left: 30%;
+        margin-right: 30%;
+        border-radius: 25px;
+        margin-top: 10px;
+        padding: 1.5%
+}
+
+@mixin grid_area_width_1000px 
+{
+    .jueguito1 {
+        grid-area: jueguito1;
+
+    }
+
+    .jueguito2 {
+
+        grid-area: jueguito2;
+
+    }
+
+    .jueguito3 {
+
+        grid-area: jueguito3;
+
+    }
+
+    .jueguito4 {
+
+        grid-area: jueguito4;
+
+    }
+
+    .jueguito5 {
+
+        grid-area: jueguito5;
+
+    }
+
+    .jueguito6 {
+
+        grid-area: jueguito6;
+
+    }
+
+    .jueguito7 {
+
+        grid-area: jueguito7;
+
+    }
+
+    .jueguito8 {
+
+        grid-area: jueguito8;
+
+    }
+
+    .jueguito9 {
+        display: none;
+    }
+}

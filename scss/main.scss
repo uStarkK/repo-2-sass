@@ -186,59 +186,10 @@ a {
         margin-left: 1%;
     }
 
-    .jueguito1 {
-        grid-area: jueguito1;
-
-    }
-
-    .jueguito2 {
-
-        grid-area: jueguito2;
-
-    }
-
-    .jueguito3 {
-
-        grid-area: jueguito3;
-
-    }
-
-    .jueguito4 {
-
-        grid-area: jueguito4;
-
-    }
-
-    .jueguito5 {
-
-        grid-area: jueguito5;
-
-    }
-
-    .jueguito6 {
-
-        grid-area: jueguito6;
-
-    }
-
-    .jueguito7 {
-
-        grid-area: jueguito7;
-
-    }
-
-    .jueguito8 {
-
-        grid-area: jueguito8;
-
-    }
-
-    .jueguito9 {
-        display: none;
-    }
+    @include grid_area_width_1000px;
 }
 
-@media screen and (max-width: 610px) {
+/* @media screen and (max-width: 610px) {
     .juegos_container {
         width: 100%;
         display: grid;
@@ -252,15 +203,15 @@ a {
         text-align: center;
     }
 
-    .jueguito4,
-    .jueguito5,
-    .jueguito6,
-    .jueguito7,
-    .jueguito8,
-    .jueguito9 {
-        display: none;
+    @include grid_area_width_1000px
+    {
+        .jueguito1, .jueguito2, .jueguito3
+        {
+            display: block;
+        }
+        
     }
-}
+} */
 
 @media screen and (max-width: 550px) {
     .grid_videos {
