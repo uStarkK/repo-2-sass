@@ -63,3 +63,12 @@
         display: none;
     }
 }
+
+@mixin grid_area_610px
+{
+    @include grid_area_width_1000px;
+    .jueguito1, .jueguito2, .jueguito3
+    {
+        display: block;
+    }
+}

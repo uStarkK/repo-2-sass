@@ -189,7 +189,7 @@ a {
     @include grid_area_width_1000px;
 }
 
-/* @media screen and (max-width: 610px) {
+@media screen and (max-width: 610px) {
     .juegos_container {
         width: 100%;
         display: grid;
@@ -203,15 +203,8 @@ a {
         text-align: center;
     }
 
-    @include grid_area_width_1000px
-    {
-        .jueguito1, .jueguito2, .jueguito3
-        {
-            display: block;
-        }
-        
-    }
-} */
+    @include grid_area_610px;
+}
 
 @media screen and (max-width: 550px) {
     .grid_videos {
@@ -255,17 +248,10 @@ a {
         margin-top: 5%;
         margin-left: 1%;
         text-align: center;
-        gap: 16%;
+        gap: 10%;
     }
 
-    .jueguito4,
-    .jueguito5,
-    .jueguito6,
-    .jueguito7,
-    .jueguito8,
-    .jueguito9 {
-        display: none;
-    }
+    @include grid_area_610px;
 
     /* COMUNIDAD */
     .tercer_item,
