@@ -208,6 +208,12 @@ section strong {
   color: #fa8908;
   margin: 0%; }
 
+.boton_search {
+  border-color: #fa8908; }
+
+.boton_search:hover {
+  color: #fa8908; }
+
 #posteos {
   font-size: larger;
   display: flex;

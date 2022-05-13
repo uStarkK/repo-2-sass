@@ -46,6 +46,14 @@ section
     color: $menu_color;
     margin: 0%;
 }
+.boton_search
+{
+    border-color: $menu_color
+}
+.boton_search:hover
+{
+    color: $menu_color;
+}
 #posteos
 {
     font-size: larger;
