@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 3%;
+    margin-top: 1%;
 }
 fieldset
 {
@@ -12,10 +13,12 @@ fieldset
 }
 .cuenta 
 {
-    color: turquoise;
+
+    color: #fa8908;
     text-align: center;
-    background-image: url(../images/fondo_cuenta2.jpg);
-    background-position: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 2%;
+    border-radius: 25px;
     p
     {
         @include cuenta-propiedades
@@ -28,7 +31,7 @@ label
 #GET-name, #GET-password
 {
     background-color: black;
-    color: aqua;
+    color: white;
     margin: 10px 15px;
     text-align: center;
     padding: 20px;
@@ -36,9 +39,9 @@ label
 
 .crear_cuenta 
 {
-    background-image: url(../images/fondo_cuenta.jpg);
-    background-position: center;
+    background-color: rgba(0, 0, 0, 0.75);
     text-align: center;
+    border-radius: 25px;
     p
     {
         @include cuenta-propiedades
@@ -50,7 +53,7 @@ label
 #create-user, #create-password, #GET-email  
 {
     background-color: black;
-    color: aqua;
+    color: white;
     margin: 10px 15px;
     padding: 20px;
 }
