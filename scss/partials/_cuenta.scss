@@ -14,6 +14,8 @@ fieldset
 .cuenta 
 {
 
+    display: flex;
+    flex-direction: column;
     color: #fa8908;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.75);
@@ -22,6 +24,15 @@ fieldset
     p
     {
         @include cuenta-propiedades
+    }
+    a
+    {
+        color: #fa8908;
+        margin-top: 25px;
+    }
+    a:hover
+    {
+        color: #f3ab59;
     }
 }
 label
@@ -77,6 +88,8 @@ label
 
 #create-acc
 {
+    width: 55%;
+    align-self: center;
     border-radius: 25px;
     text-shadow: 3px 2px 1px #9daef5;
     box-shadow: 6px 5px 24px #666666;

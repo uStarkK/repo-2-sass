@@ -71,25 +71,24 @@
         <div class="container_cuenta">
             <form class="cuenta">
                 <fieldset>
-                    <p> Ingrese su usuario y contraseña </p>
                     <label for="GET-name">Usuario</label>
-                    <input id="GET-name" type="text" name="Usuario" placeholder="Ingrese su nombre de usuario">
+                    <input id="GET-name" type="text" name="Usuario" placeholder="Ingrese usuario">
                     <label for="GET-password">Contraseña</label>
-                    <input id="GET-password" type="password" name="Contraseña" placeholder="Ingrese su contraseña">
+                    <input id="GET-password" type="password" name="Contraseña" placeholder="Ingrese contraseña">
                 </fieldset>
                 <input type="submit" value="Iniciar sesión" id="create-acc">
+                <a href="#creacion_cuenta">No se encuentra registrado? Cree una cuenta gratuita!</a>
             </form>
         </div>
         <div class="container_cuenta">
-            <form class="crear_cuenta">
+            <form class="crear_cuenta" id="creacion_cuenta">
                 <fieldset>
                     <div>
-                        <p> No se encuentra registrado? Cree una cuenta gratuita!</p>
                         <label for="create-user">Usuario</label>
-                        <input id="create-user" type="text" name="Usuario" placeholder="Ingrese nombre de usuario">
+                        <input id="create-user" type="text" name="Usuario" placeholder="Ingrese usuario">
                         <label for="create-password">Contraseña</label>
-                        <input id="create-password" type="password" name="Contraseña" placeholder="ingrese contraseña">
-                        <input id="create-password" type="password" name="Contraseña" placeholder="confirme contraseña">
+                        <input id="create-password" type="password" name="Contraseña" placeholder="Ingrese contraseña">
+                        <input id="create-password" type="password" name="Contraseña" placeholder="Confirme contraseña">
                         <label for="GET-email">Email</label>
                         <input id="GET-email" type="text" name="email" placeholder="Ingrese su email">
                     </div>
@@ -97,7 +96,6 @@
                         <p> Lea el acuerdo de licencia aqui: <a href="EULA.html" target="_blank">EULA</a></p>
                         <p> Acepta terminos y condiciones? <input type="checkbox" name="terminos_y_condiciones"
                                 id="check"></p>
-
                     </div>
                     <input type="submit" value="Crear cuenta" id="create-acc">
                 </fieldset>
