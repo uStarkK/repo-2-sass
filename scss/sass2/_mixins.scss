@@ -63,12 +63,57 @@
         display: none;
     }
 }
+@mixin grid_videos_width_1000px 
+{
+    .video1
+{
+    grid-area: video1;
+}
+.video2
+{
+    grid-area: video2;
+}
+.video3
+{
+    grid-area: video3;
+}
+.video4
+{
+    grid-area: video4;
+}
+
+.video5
+{
+    grid-area: video5;
+}
+.video6
+{
+    grid-area: video6;
+}
+.video7
+{
+    grid-area: video7;
+}
+.video8
+{
+    grid-area: video8;
+}
+.video9
+{
+    display: none;
+}
+}
 
 @mixin grid_area_610px
 {
     @include grid_area_width_1000px;
-    .jueguito1, .jueguito2, .jueguito3
+    .jueguito9, .jueguito8, .jueguito7, .jueguito6, .jueguito5, .jueguito4
     {
-        display: block;
+        display: none;
+    }
+    @include grid_videos_width_1000px;
+    .video4, .video5, .video6, .video7, .video8
+    {   
+        display: none;
     }
 }

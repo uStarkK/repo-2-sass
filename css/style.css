@@ -582,6 +582,37 @@ a {
   .jueguito8 {
     grid-area: jueguito8; }
   .jueguito9 {
+    display: none; }
+  .container_gridvideos {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    grid-template-rows: repeat(4, 24%);
+    grid-template-areas: "video1 video2" "video4 video3" "video5 video6" "video7 video8 ";
+    margin-top: 5%;
+    margin-left: 1%; }
+    .container_gridvideos iframe {
+      width: 90%;
+      height: 90%;
+      border-radius: 15px; }
+  .video1 {
+    grid-area: video1; }
+  .video2 {
+    grid-area: video2; }
+  .video3 {
+    grid-area: video3; }
+  .video4 {
+    grid-area: video4; }
+  .video5 {
+    grid-area: video5; }
+  .video6 {
+    grid-area: video6; }
+  .video7 {
+    grid-area: video7; }
+  .video8 {
+    grid-area: video8; }
+  .video9 {
     display: none; } }
 
 @media screen and (max-width: 610px) {
@@ -591,6 +622,16 @@ a {
     grid-template-columns: repeat(1, 98%);
     grid-template-rows: repeat(3, 32%);
     grid-template-areas: "jueguito1" "jueguito2" "jueguito3";
+    margin-top: 5%;
+    margin-left: 1%;
+    text-align: center; }
+  .container_gridvideos {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 98%);
+    grid-template-rows: repeat(3, 32%);
+    grid-template-areas: "video1" "video2" "video3";
     margin-top: 5%;
     margin-left: 1%;
     text-align: center; }
@@ -612,8 +653,28 @@ a {
     grid-area: jueguito8; }
   .jueguito9 {
     display: none; }
-  .jueguito1, .jueguito2, .jueguito3 {
-    display: block; } }
+  .jueguito9, .jueguito8, .jueguito7, .jueguito6, .jueguito5, .jueguito4 {
+    display: none; }
+  .video1 {
+    grid-area: video1; }
+  .video2 {
+    grid-area: video2; }
+  .video3 {
+    grid-area: video3; }
+  .video4 {
+    grid-area: video4; }
+  .video5 {
+    grid-area: video5; }
+  .video6 {
+    grid-area: video6; }
+  .video7 {
+    grid-area: video7; }
+  .video8 {
+    grid-area: video8; }
+  .video9 {
+    display: none; }
+  .video4, .video5, .video6, .video7, .video8 {
+    display: none; } }
 
 @media screen and (max-width: 550px) {
   .grid_videos {
@@ -645,6 +706,16 @@ a {
     margin-left: 1%;
     text-align: center;
     gap: 10%; }
+  .container_gridvideos {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 98%);
+    grid-template-rows: repeat(3, 33%);
+    grid-template-areas: "video1 " "video2" "video3";
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 1%; }
   .jueguito1 {
     grid-area: jueguito1; }
   .jueguito2 {
@@ -663,8 +734,28 @@ a {
     grid-area: jueguito8; }
   .jueguito9 {
     display: none; }
-  .jueguito1, .jueguito2, .jueguito3 {
-    display: block; }
+  .jueguito9, .jueguito8, .jueguito7, .jueguito6, .jueguito5, .jueguito4 {
+    display: none; }
+  .video1 {
+    grid-area: video1; }
+  .video2 {
+    grid-area: video2; }
+  .video3 {
+    grid-area: video3; }
+  .video4 {
+    grid-area: video4; }
+  .video5 {
+    grid-area: video5; }
+  .video6 {
+    grid-area: video6; }
+  .video7 {
+    grid-area: video7; }
+  .video8 {
+    grid-area: video8; }
+  .video9 {
+    display: none; }
+  .video4, .video5, .video6, .video7, .video8 {
+    display: none; }
   /* COMUNIDAD */
   .tercer_item,
   .segundo_item {
