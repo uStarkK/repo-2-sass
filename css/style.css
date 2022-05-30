@@ -366,6 +366,51 @@ section strong {
   flex-direction: column;
   align-items: center; }
 
+.h2_videos {
+  text-align: center; }
+
+.videos_wrapper {
+  height: 100%; }
+
+.container_gridvideos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(3, 33%);
+  grid-template-areas: "video1 video2 video3" "video4 video5 video6" "video7 video8 video9";
+  margin-top: 5%;
+  margin-left: 1%;
+  gap: 5% 1%; }
+  .container_gridvideos iframe {
+    width: 90%; }
+
+.video1 {
+  grid-area: video1; }
+
+.video2 {
+  grid-area: video2; }
+
+.video3 {
+  grid-area: video3; }
+
+.video4 {
+  grid-area: video4; }
+
+.video5 {
+  grid-area: video5; }
+
+.video6 {
+  grid-area: video6; }
+
+.video7 {
+  grid-area: video7; }
+
+.video8 {
+  grid-area: video8; }
+
+.video9 {
+  grid-area: video9; }
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?rs9uwr");
