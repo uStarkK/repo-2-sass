@@ -490,6 +490,13 @@ header {
 .titulo {
   text-align: center; }
 
+nav button a {
+  text-decoration: none;
+  color: white; }
+
+nav button a:hover {
+  color: #fa8908; }
+
 .container_footer {
   display: flex;
   flex-direction: column; }
