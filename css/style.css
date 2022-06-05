@@ -5,25 +5,27 @@
   flex-wrap: wrap;
   align-content: flex-start; }
 
-.posts section {
-  background-color: black;
-  margin-top: 0.5%;
-  color: red;
-  border-radius: 10px;
-  padding: 0.5%; }
-  .posts section article {
-    margin-left: 1%; }
-  .posts section p {
-    color: white;
-    margin-left: 3%; }
-  .posts section h5 {
-    text-align: right;
-    color: blueviolet;
-    margin-right: 0.5%; }
-  .posts section a {
-    color: blueviolet; }
-  .posts section a:hover {
-    color: bisque; }
+.posts {
+  margin-left: 0.5%; }
+  .posts section {
+    background-color: black;
+    margin-top: 0.5%;
+    color: #fa8908;
+    border-radius: 10px;
+    padding: 0.5%; }
+    .posts section article {
+      margin-left: 1%; }
+    .posts section p {
+      color: bisque;
+      margin-left: 3%; }
+    .posts section h5 {
+      text-align: right;
+      color: #f3ab59;
+      margin-right: 0.5%; }
+    .posts section a {
+      color: #f3ab59; }
+    .posts section a:hover {
+      color: #f8bc72; }
 
 .carousel-item > img {
   vertical-align: 0%; }
@@ -135,10 +137,10 @@ label {
 
 .licencia p {
   background-color: black;
-  color: red; }
+  color: #fa8908; }
 
 .licencia a:hover {
-  color: aqua; }
+  color: #f3ab59; }
 
 #create-acc {
   width: 55%;
@@ -186,7 +188,7 @@ label {
 
 .legend {
   font-family: 'Hurricane', cursive;
-  color: red;
+  color: #fa8908;
   text-align: center;
   font-size: 50px;
   position: flex;
@@ -203,7 +205,7 @@ label {
   color: #fa8908; }
 
 .mi_nav_link:hover {
-  color: #ff0505; }
+  color: #f3ab59; }
 
 section strong {
   font-family: Arial, Helvetica, sans-serif;
@@ -245,16 +247,16 @@ section strong {
     border-radius: 20px; }
   #posteos aside {
     font-size: medium;
-    color: blueviolet; }
+    color: bisque; }
     #posteos aside a {
-      color: blueviolet; }
-    #posteos aside a:hover {
       color: bisque; }
+    #posteos aside a:hover {
+      color: #f7b05b; }
   #posteos a {
-    color: red;
+    color: #fa8908;
     text-decoration: underline; }
   #posteos a:hover {
-    color: aqua;
+    color: #f3ab59;
     text-decoration: none; }
 
 .videos_inicio {
@@ -262,10 +264,10 @@ section strong {
   margin-left: 1.5%; }
 
 .videos_inicio h2 a {
-  color: red; }
+  color: #fa8908; }
 
 .videos_inicio h2 a:hover {
-  color: aqua; }
+  color: #f3ab59; }
 
 .grid_videos {
   display: grid;
@@ -295,18 +297,25 @@ section strong {
 .juegos_nav {
   text-align: center; }
 
-.buscar_juegos {
+.buscar_juegos ul {
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: center; }
-  .buscar_juegos ul {
-    list-style: none; }
-    .buscar_juegos ul li {
-      margin-top: 1%; }
-  .buscar_juegos a {
-    color: #49FF00; }
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0; }
+  .buscar_juegos ul li {
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 1%; }
+
+.buscar_juegos a {
+  color: #fa8908; }
+
+.buscar_juegos a:hover {
+  color: #f3ab59; }
 
 .juegos_container {
   width: 100%;
@@ -321,7 +330,7 @@ section strong {
   .juegos_container img {
     height: 90%;
     width: 90%;
-    border-radius: 25px; }
+    border-radius: 15px; }
 
 .jueguito1 {
   grid-area: jueguito1; }
@@ -357,10 +366,12 @@ section strong {
   text-align: center;
   background-image: url(../images/heimer.jpg);
   background-position: center;
-  color: turquoise;
+  color: #fa8908;
   border-radius: 25px;
   padding: 1.5%;
   padding-bottom: 5%; }
+  .contacto legend {
+    background-color: rgba(0, 0, 0, 0.5); }
 
 .container_contacto {
   display: flex;
@@ -482,7 +493,7 @@ header {
 .fondo_header {
   background-image: url(../images/fondo_header.jpg);
   background-position: center;
-  color: red;
+  color: #fa8908;
   text-align: center;
   width: 100%; }
 
@@ -508,7 +519,7 @@ nav button a:hover {
 
 footer {
   background-color: rgba(0, 0, 0, 0.9);
-  color: red;
+  color: #fa8908;
   font-family: sans-serif;
   padding: 1%;
   width: 100%;
@@ -516,10 +527,10 @@ footer {
   footer nav {
     text-align: center; }
   footer a {
-    color: aqua;
+    color: #f3ab59;
     margin: 0px 5px; }
   footer a:hover {
-    color: skyblue; }
+    color: #f8bc72; }
 
 a {
   text-decoration: none; }

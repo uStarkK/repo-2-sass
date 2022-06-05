@@ -2,7 +2,7 @@
 .legend
 {
     font-family: 'Hurricane', cursive;
-    color: red;
+    color: $menu_color;
     text-align: center; 
     font-size: 50px;
     position: flex;
@@ -22,7 +22,7 @@
 }
 .mi_nav_link:hover
 {
-    color: rgb(255, 5, 5);
+    color: #f3ab59;
 }
 section 
 {
@@ -79,24 +79,24 @@ section
     aside
     {
         font-size:medium;
-    color: blueviolet; 
+    color: bisque; 
         a
         {
-            color:blueviolet;
+            color:bisque;
         }
         a:hover
         {
-            color: bisque;
+            color: rgb(247, 176, 91);
         }
     }
     a
     {
-        color: red;
+        color: $menu_color;
         text-decoration: underline;
     }
     a:hover
     {
-        color: aqua;
+        color: #f3ab59;;
         text-decoration: none;
     }
 }
@@ -109,11 +109,11 @@ section
 }
 .videos_inicio h2 a
 {
-    color:red;
+    color:$menu_color;
 }
 .videos_inicio h2 a:hover
 {
-    color: aqua;
+    color: #f3ab59;;
 }
 .grid_videos
 {

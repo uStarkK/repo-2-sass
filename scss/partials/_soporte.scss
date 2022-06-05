@@ -3,10 +3,14 @@
     text-align: center;
     background-image: url(../images/heimer.jpg);
     background-position: center;
-    color: turquoise;
+    color: #fa8908;
     border-radius: 25px;
     padding: 1.5%;
     padding-bottom: 5%;
+    legend
+    {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
 .container_contacto
 {

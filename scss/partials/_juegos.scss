@@ -6,23 +6,31 @@
 
 .buscar_juegos 
 {
-    background-color: rgba(0, 0, 0, 0.7);
-    background-blend-mode: darken;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+    
     ul 
     {
+        background-color: rgba(0, 0, 0, 0.7);
+        background-blend-mode: darken;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         list-style: none;
+        padding-left: 0;
         li
         {
-            margin-top: 1%;
+            background-color: rgba(0, 0, 0, 0.151);
+            border-radius: 10px;
+            padding: 10px;
+            margin: 1%;
         }
     }
-
     a 
     {
-        color: #49FF00;
+        color: $menu_color;
+    }
+    a:hover
+    {
+        color: #f3ab59;
     }
 }
 
@@ -47,7 +55,7 @@
     {
         height: 90%;
         width: 90%;
-        border-radius: 25px;
+        border-radius: 15px;
     }
 }
 
